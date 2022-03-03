@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- TODO 1: Replace hardcoded numeric values with dimen resources (Obviously, you'll have to create a dimens file) -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Title" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/title_textSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.LongText" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/longtext_textSize</item>
+        <item name="android:lineHeight">@dimen/line_height</item>
+    </style>
+
+    <style name="AppTheme.Button" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingStart">@dimen/paddingStart</item>
+        <item name="android:paddingEnd">@dimen/paddingEnd</item>
+    </style>
+
+</resources>

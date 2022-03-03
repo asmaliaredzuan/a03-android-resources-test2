@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- TODO 6: Define button_color resource. Remember, the button will have a specific color for pressed state and another one for the rest -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:color="@color/colorAccent" />
+    <item android:color="@color/colorPrimary"/>
+</selector>
